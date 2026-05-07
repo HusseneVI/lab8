@@ -24,4 +24,12 @@ public class ClassGroup {
     public String getName() {
         return name;
     }
+
+    @Override
+    public String toString() {
+        return "\nClassGroup{" +
+                "name='" + name + '\'' +
+                ", students=" + students +
+                '}';
+    }
 }
